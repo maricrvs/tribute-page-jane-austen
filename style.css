@@ -1,0 +1,654 @@
+@font-face {
+    font-family: 'Bruney';
+    src: url('Bruney.otf') format ('opentype'); scr: url('Bruney.ttf') format ('truetype');
+    
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lato&family=Libre+Bodoni&display=swap');
+
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none
+}
+
+span{
+    font-size: 16px;
+}
+.span-2{
+    color: #C9A0A0;
+    font-size: 36px;
+
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(242, 217, 194, 0.51);;
+    display: flex;
+}
+
+.main-content {
+    flex:1;
+}
+
+.line {
+    flex:0;
+}
+
+
+.cabecalho {
+    background-color: #F9ECE0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding: 24px;
+    z-index: 1;
+    
+       
+}
+
+
+.cabecalho-menu {
+    display: flex;
+    gap: 52px;
+    
+   
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Inter', sans-serif;
+    color: rgba(0, 0, 0, 0.46);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.46);
+}
+
+#landingPage {
+    position: relative;
+    margin-top: 200px;
+    
+}
+
+.name-and-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.jane-austen-name{
+    position: absolute;
+    width: 1440px;
+    height: 225px;
+    left: 281px;
+    top: -79px;
+    font-family: 'Bruney';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 235px;
+    line-height: 253px;
+    color: #C9A0A0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.texts-and-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.text-1 {
+    
+    position: absolute;
+    left: 330px;
+    top:492px;
+    
+}
+
+.text-1-style {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 36px;
+}
+
+
+.data-style {
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Libre Bodoni', serif;
+
+}
+
+
+.text-2{
+    position: absolute;
+    left: 1170px;
+    top:492px;
+    
+    
+}
+
+.text-2-style {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 36px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: justify;
+    text-align-last: right;
+}
+
+
+#biography {
+    margin-top: 400px;
+    padding-left: 350px;
+    
+}
+
+.title-and-blank-space{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-biography{
+    margin-top: 85px;
+    width: 356px;
+    border-top: 1px solid #FFFFFF;
+    margin-left: 27px;
+
+}
+
+.biography-title {
+    font-family: 'Bruney';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 122px;
+    color: #C9A0A0;
+
+}
+
+.biography-text-container {
+    width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.biography-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #000000;
+}
+
+
+
+  
+#critics{
+    width: 100%;
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+    position: relative; 
+    
+}
+
+.authors {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+.slide-content-1 {
+    position: absolute;
+    left: 400px;
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.slide-content-2 {
+    position: absolute;
+    padding-top: 250px;
+    left: 700px;
+    top: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linha{
+    width: 300px;
+    height: 47px;
+    border-bottom: 1px solid #FFFFFF; 
+    align-items: center;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.author-name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color:#C9A0A0;
+    text-align: center;
+  
+}
+
+#novels{
+    width: 100%;
+    
+    
+    
+}
+
+.blanksp-linha-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blank-space {
+    width: 300px; 
+
+}
+
+.novels-title{
+    width: 748px;
+    font-family: 'Bruney';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 122px;
+    color: #C9A0A0;
+
+}
+
+
+
+.linha-romance{
+    margin-top: 85px;
+    width: 356px;
+    border-top: 1px solid #FFFFFF;
+    margin-right: 27px;
+
+
+}
+
+
+
+
+.obras {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+}
+
+
+.card-s-s{
+    
+   background-image: linear-gradient(#C9A0A0 ,#C9A0A0);
+   max-width: 360px;
+   overflow: hidden;
+   border-radius: 10px;
+   cursor: pointer;
+   margin: 50px;
+
+}
+
+.img-s-s {
+    background-image: url(51YFG3c4BPL.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-ss-content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+    font-family: 'Lato';
+    color: white;
+}
+
+.card-s-s:hover .card-ss-content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0px);
+}
+
+.card-info {
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+
+.card-p-p{
+    
+    background-image: linear-gradient(#C9A0A0 ,#C9A0A0);
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px;
+ 
+ }
+
+.img-p-p {
+    background-image: url(pride-and-prejudice-71.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-tittle {
+    text-shadow: 10;
+    font-family: 'Bruney';
+    color: white;
+    
+}
+
+.card-pp-content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+    font-family: 'Lato';
+    color: white;
+}
+
+.card-p-p:hover .card-pp-content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+.card-m-p{
+    
+    background-image: linear-gradient(#C9A0A0 ,#C9A0A0);
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 50px;
+ 
+ }
+
+.img-m-p {
+    background-image: url(mansfield-park-61.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-mp-content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+    font-family: 'Lato';
+    color: white;
+}
+
+.card-m-p:hover .card-mp-content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0px);
+}
+
+
+
+.card-emma{
+    
+    background-image: linear-gradient(#C9A0A0 ,#C9A0A0);
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+ }
+
+.img-emma {
+    background-image: url(emma-70.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card-emma-content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30px);
+    font-family: 'Lato';
+    color: white;
+}
+
+.card-emma:hover .card-emma-content {
+    padding: 20px;
+    height: 260px;
+    transform: translateY(0px);
+}
+
+
+.link-novels {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link-style {
+    font-family: 'Inter';
+    font-style: none;
+    color: black;
+
+
+}
+
+
+#credits{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 33px;
+    padding-left: 20px;
+    padding-right: 200px;
+    margin-top: 100px;
+    
+            
+    
+}
+
+.credit-text{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.line-and-sumary {
+    display: flex;
+    flex-direction: row; 
+    height: 100%;    
+    margin-top: 320px;
+    
+    
+    
+}
+
+.line{
+    border: 0.5px solid #C9A0A0;
+    height: 4000px;
+    width: 0;
+    margin-left: -205px;
+    
+}
+
+.sumary-itens {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    padding-left: 31px;
+    padding-top: 200px;
+    
+    
+
+}
+
+.sumary-item{
+     
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-top: 1080px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.46);
+    text-transform: uppercase;
+    
+    
+
+}
+
+.sumary-item-novel{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding-top: 1200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.46);
+    text-transform: uppercase;
+}
+
+
+@media (max-width:1049px) {
+    .jane-austen-name {
+        font-size: 100px;
+     }
+}
+
+@media (min-width: 1050px) and (max-width:1090px) {
+    .jane-austen-name {
+       font-size: 200px;
+    }
+
+    .texts-and-data {
+        display: flex;
+        flex-direction: column;
+        
+     }
+}
+
+
+
+
